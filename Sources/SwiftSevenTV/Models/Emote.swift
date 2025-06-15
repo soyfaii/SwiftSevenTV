@@ -27,4 +27,7 @@ public struct Emote: Decodable {
     public var url: URL {
         return URL(string: "https://cdn.7tv.app/emote/\(self.id)/1x.webp")!
     }
+    public var url2x: URL {
+        return URL(string: "https://cdn.7tv.app/emote/\(self.id)/2x.webp")!
+    }
 }
